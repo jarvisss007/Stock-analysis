@@ -6,7 +6,8 @@ from fredapi import Fred
 from functools import lru_cache
 
 # Initialize FRED API
-fred_api_key = "fbf3d5724e2f198249e17de383a5c3d1"  # Replace with your FRED API key
+import os
+fred_api_key = os.environ.get("FRED_API_KEY")  # set via environment, never hardcode
 fred = Fred(api_key=fred_api_key)
 
 @lru_cache(maxsize=128)
