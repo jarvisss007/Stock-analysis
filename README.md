@@ -28,3 +28,13 @@ This is exploratory student work: single-split evaluations, no transaction
 costs, no significance testing. For how I evaluate strategies now — walk-forward,
 costs, bootstrap inference — see
 [dc-ml-trading](https://github.com/jarvisss007/dc-ml-trading).
+
+## Investing principles reference
+
+`docs/buffett-letters/README.md` is a synthesis of all 48 Berkshire Hathaway
+shareholder letters (1977-2024): what investing is, what to look for in a
+business and its management, how to value it, the accounting traps, capital
+allocation, temperament, and how Buffett's thinking evolved, plus the ideas he
+took from Graham, Fisher and Munger and what Lynch and other managers add. It
+ends with a 25-point checklist. `docs/buffett-letters/year-by-year/` holds the
+letter-by-letter notes it was built from.
